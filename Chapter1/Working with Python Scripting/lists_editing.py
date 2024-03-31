@@ -17,3 +17,15 @@ print(type(protocols))
 print(len(protocols))
 
 print(protocols)
+
+# To access specific positions, we can use the index() method, and to delete an element, we can use the remove() method.
+
+print(protocols[0])
+print(protocols[1])
+print(protocols[2])
+print(protocols[3])
+
+protocols.remove("SSH")
+print(len(protocols))
+
+print(protocols)
