@@ -13,3 +13,6 @@ print(response[1])
 print(response[2])
 print(response[3])
 print(response[4])
+
+# If an attempt is made to access an index that is outside the range of the list, the interpreter will throw the
+# IndexError exception. Similarly, if an index that is not an integer is used, the TypeError exception will be thrown.
