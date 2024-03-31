@@ -29,3 +29,9 @@ protocols.remove("SSH")
 print(len(protocols))
 
 print(protocols)
+
+# To print out the whole protocol list, use the following instructions. This will loop through all the
+# elements and print them out one by one.
+
+for protocol in protocols:
+    print(protocol)
