@@ -10,3 +10,10 @@ protocols.append("Telnet")
 protocols.append("SMTP")
 
 print(protocols)
+
+protocols.sort()
+
+print(type(protocols))
+print(len(protocols))
+
+print(protocols)
