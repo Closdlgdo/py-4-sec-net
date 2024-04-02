@@ -40,3 +40,7 @@ for protocol in protocols:
 # an object that contains a list of tuples, where each tuple contains a count (from 0) and an element from the list.
 for count, protocol in enumerate(protocols):
     print(count, protocol)
+
+# To do this in a more efficient way, we can use list comprehension. The list comprehension is an efficient way more efficient
+protocol_lengths = [len(protocol) for protocol in protocols]
+print(protocol_lengths)
