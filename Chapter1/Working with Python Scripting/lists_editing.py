@@ -35,3 +35,8 @@ print(protocols)
 
 for protocol in protocols:
     print(protocol)
+
+# To do this in a more efficient way, we can use the enumerate() function. The enumerate() function returns
+# an object that contains a list of tuples, where each tuple contains a count (from 0) and an element from the list.
+for count, protocol in enumerate(protocols):
+    print(count, protocol)
