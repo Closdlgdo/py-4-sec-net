@@ -8,3 +8,9 @@ print(my_list)
 my_list.reverse()
 
 print(my_list)
+
+# Another way to do the same operation is to use the -1 index. This quick and easy technique shows how you can access
+# all the elements of a list in reverse order:
+
+for item in my_list[::-1]:
+    print(item)
