@@ -8,3 +8,10 @@ my_list = [1, 2, 3, 4, 5]
 print(1 in my_list)
 print(6 in my_list)
 print(6 not in my_list)
+
+protocolList = ["FTP", "HTTP", "SNMP", "SSH"]
+element_to_find = "SSH"
+for i in range(len(protocolList)):
+    if element_to_find in protocolList[i]:
+        print("Element found at index", i)
+        break
