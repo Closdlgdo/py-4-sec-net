@@ -41,3 +41,11 @@ print(the_tuple[-1])
 print(the_tuple[-2])
 print(the_tuple[-3])
 print(the_tuple[-4])
+
+print("--------------------------")
+
+# When trying to modify a tuple, we see how we get an error since tuples are immutable objects:
+# the_tuple[0] = "SFTP"
+# the_tuple[0] = "SFTP"
+#    ~~~~~~~~~^^^
+# TypeError: 'tuple' object does not support item assignment
