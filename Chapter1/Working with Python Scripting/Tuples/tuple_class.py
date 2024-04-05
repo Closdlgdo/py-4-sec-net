@@ -31,4 +31,10 @@ print(the_tuple[2])
 print(the_tuple[3])
 print(the_tuple[4]) # IndexError: tuple index out of range
 
+# As with lists and all sequential types, it is permissible to use negative indices to access the elements of a tuple.
+# In this case, the index -1 refers to the last element of the sequence, -2 to the penultimate, and so on:
 
+print(the_tuple[-1])
+print(the_tuple[-2])
+print(the_tuple[-3])
+print(the_tuple[-4])
