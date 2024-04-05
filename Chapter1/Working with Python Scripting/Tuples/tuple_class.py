@@ -21,3 +21,14 @@ for element in my_tuple:
 the_tuple = ("FTP", "HTTP", "SNMP", "SSH")
 
 print(the_tuple)
+
+# If an attempt is made to access an index that is outside the range of the tuple, the interpreter will throw the
+# IndexError exception. Similarly, if an index that is not an integer is used, the TypeError exception will be thrown:
+
+print(the_tuple[0])
+print(the_tuple[1])
+print(the_tuple[2])
+print(the_tuple[3])
+print(the_tuple[4]) # IndexError: tuple index out of range
+
+
