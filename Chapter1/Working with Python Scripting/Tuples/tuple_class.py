@@ -12,3 +12,7 @@ my_tuple = (1, 2, 3, 'a', 'b', 'c')
 first_element = my_tuple[0]
 third_element = my_tuple[2]
 last_element = my_tuple[-1]
+
+# Print the elements
+for element in my_tuple:
+    print(element)
