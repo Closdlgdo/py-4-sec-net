@@ -17,11 +17,13 @@ last_element = my_tuple[-1]
 for element in my_tuple:
     print(element)
 
+print("--------------------------")
 
 the_tuple = ("FTP", "HTTP", "SNMP", "SSH")
 
 print(the_tuple)
 
+print("--------------------------")
 # If an attempt is made to access an index that is outside the range of the tuple, the interpreter will throw the
 # IndexError exception. Similarly, if an index that is not an integer is used, the TypeError exception will be thrown:
 
@@ -29,8 +31,9 @@ print(the_tuple[0])
 print(the_tuple[1])
 print(the_tuple[2])
 print(the_tuple[3])
-print(the_tuple[4]) # IndexError: tuple index out of range
+# print(the_tuple[4]) # IndexError: tuple index out of range
 
+print("--------------------------")
 # As with lists and all sequential types, it is permissible to use negative indices to access the elements of a tuple.
 # In this case, the index -1 refers to the last element of the sequence, -2 to the penultimate, and so on:
 
