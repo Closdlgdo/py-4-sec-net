@@ -16,3 +16,8 @@ last_element = my_tuple[-1]
 # Print the elements
 for element in my_tuple:
     print(element)
+
+
+the_tuple = ("FTP", "HTTP", "SNMP", "SSH")
+
+print(the_tuple)
