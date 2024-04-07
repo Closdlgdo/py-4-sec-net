@@ -49,3 +49,8 @@ print("--------------------------")
 # the_tuple[0] = "SFTP"
 #    ~~~~~~~~~^^^
 # TypeError: 'tuple' object does not support item assignment
+
+# Tuples can also be created without using parentheses
+empty_tuple = "a", "b", "c"
+
+print(empty_tuple)
