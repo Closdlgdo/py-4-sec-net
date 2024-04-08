@@ -7,6 +7,7 @@
 # In Python there are several ways to create a dictionary. The simplest is to enclose a sequence of comma-separated
 # key:value pairs in curly braces {}. In this example we will define the service name as the key and the port number as
 # the value.
+import services
 
 my_dict = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
 
@@ -15,5 +16,13 @@ print(my_dict)
 print(my_dict["FTP"])
 
 # Another way to create a dictionary is using the dict class:
+dict(services)
+{"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
+
+print(type(services))
+
+# Accessing an element of a dictionary is one of the main operations for which this type of data exists.
+# Access to a value is done by indexing the key. To do this, simply enclose the key in square brackets.
+# If the key does not exist, the KeyError exception will be thrown.
 another_dict = dict(TCP=6, UDP=17, ICMP=1)
 print(another_dict)
