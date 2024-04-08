@@ -13,3 +13,7 @@ my_dict = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
 print(my_dict)
 
 print(my_dict["FTP"])
+
+# Another way to create a dictionary is using the dict class:
+another_dict = dict(TCP=6, UDP=17, ICMP=1)
+print(another_dict)
