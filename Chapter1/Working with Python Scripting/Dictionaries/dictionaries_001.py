@@ -11,3 +11,5 @@
 my_dict = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
 
 print(my_dict)
+
+print(my_dict["FTP"])
