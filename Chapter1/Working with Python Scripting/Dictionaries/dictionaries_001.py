@@ -33,3 +33,8 @@ print(my_dict.get("SMTP", "Port not found"))
 # existing elements if they conflict.
 my_dict.update(another_dict)
 print(my_dict)
+
+services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
+services2 = {"FTP": 2121, "DNS": 53, "SMTP": 25}
+services.update(services2)
+print(services)
