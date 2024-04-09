@@ -28,3 +28,8 @@ print(another_dict)
 print(my_dict.get("FTP"))
 print(my_dict.get("SMTP"))
 print(my_dict.get("SMTP", "Port not found"))
+
+# Using the update method, we can combine two distinct dictionaries into one. In addition, the update method will merge
+# existing elements if they conflict.
+my_dict.update(another_dict)
+print(my_dict)
