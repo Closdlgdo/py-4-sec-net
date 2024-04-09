@@ -15,12 +15,6 @@ print(my_dict)
 
 print(my_dict["FTP"])
 
-# Another way to create a dictionary is using the dict class:
-dict(services)
-{"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
-
-print(type(services))
-
 # Accessing an element of a dictionary is one of the main operations for which this type of data exists.
 # Access to a value is done by indexing the key. To do this, simply enclose the key in square brackets.
 # If the key does not exist, the KeyError exception will be thrown.
