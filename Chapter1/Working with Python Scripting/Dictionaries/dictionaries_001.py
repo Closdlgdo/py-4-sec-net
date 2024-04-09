@@ -20,3 +20,11 @@ print(my_dict["FTP"])
 # If the key does not exist, the KeyError exception will be thrown.
 another_dict = dict(TCP=6, UDP=17, ICMP=1)
 print(another_dict)
+
+# The dict class also offers the get (key[, default value]) method. This method returns the value corresponding to the
+# key used as the first parameter. If the key does not exist, it does not throw any errors, but returns the second
+# argument by default. If this argument is not supplied, the value None is returned.
+
+print(my_dict.get("FTP"))
+print(my_dict.get("SMTP"))
+print(my_dict.get("SMTP", "Port not found"))
