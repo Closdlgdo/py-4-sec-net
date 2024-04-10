@@ -38,3 +38,17 @@ services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
 services2 = {"FTP": 2121, "DNS": 53, "SMTP": 25}
 services.update(services2)
 print(services)
+
+# The first value is the key, and the second the key value. We can use any unchangeable value as a key. We can use
+# numbers, sequences, Booleans, or tuples, but not lists or dictionaries, since they are mutable.
+# The main difference between dictionaries and lists or tuples is that values contained in a dictionary are accessed
+# by their name and not by their index. You may also use this operator to reassign values, as in the lists and tuples.
+# Creating a dictionary with a tuple key and a string value
+my_dict = {(1,2): "value"}
+# Creating a dictionary with a boolean key and an integer value
+another_dict = {True: 1, False: 0}
+# Creating a dictionary with a sequence key and a float value
+third_dict = {("a", "b", "c"): 3.14}
+# Reassigning values in a dictionary
+my_dict[(1, 2)] = "new value"
+another_dict[True] = 100
