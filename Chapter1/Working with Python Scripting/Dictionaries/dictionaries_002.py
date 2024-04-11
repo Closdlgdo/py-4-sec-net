@@ -22,3 +22,7 @@ print(my_dict.keys())
 # • items(): Returns a view of (key, value) pairs from the dictionary.
 # • keys(): Returns a view of the keys in the dictionary.
 # • values(): Returns a view of the values in the dictionary.
+
+print(my_dict.items())
+
+print(my_dict.values())
