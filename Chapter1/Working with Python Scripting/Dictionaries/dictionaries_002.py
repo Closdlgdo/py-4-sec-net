@@ -3,3 +3,11 @@
 # • A dictionary is not a list: A list contains a set of numbered values, while a dictionary
 # holds pairs of values.
 # • The len() function: This works for dictionaries and returns the number of key-value elements in the dictionary.
+
+my_dict = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+
+print(len(my_dict))
