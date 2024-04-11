@@ -11,3 +11,7 @@ my_dict = {
 }
 
 print(len(my_dict))
+
+# We can use the keys() method to get a list of all the keys in the dictionary.
+
+print(my_dict.keys())
