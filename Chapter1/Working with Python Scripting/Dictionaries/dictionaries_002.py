@@ -26,3 +26,8 @@ print(my_dict.keys())
 print(my_dict.items())
 
 print(my_dict.values())
+
+print("--------------------------------")
+
+for key, value in my_dict.items():
+    print(key, value)
