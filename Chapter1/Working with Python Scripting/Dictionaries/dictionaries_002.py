@@ -31,3 +31,16 @@ print("--------------------------------")
 
 for key, value in my_dict.items():
     print(key, value)
+
+print("--------------------------------")
+
+# The dict class is mutable, so elements can be added, modified, and/or removed after an object of this type has been
+# created. To add a new item to an existing dictionary, use the assignment operator =. To the left of the operator
+# appears the dictionary object with the new key in square brackets [] and to the right the value associated with said
+# key.
+
+my_dict_services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
+
+my_dict_services["DNS"] = 53
+
+print(my_dict_services)
