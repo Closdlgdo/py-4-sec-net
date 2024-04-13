@@ -39,8 +39,6 @@ print("--------------------------------")
 # appears the dictionary object with the new key in square brackets [] and to the right the value associated with said
 # key.
 
-my_dict_services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22}
-
-my_dict_services["DNS"] = 53
+my_dict_services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22, "DNS": 53}
 
 print(my_dict_services)
