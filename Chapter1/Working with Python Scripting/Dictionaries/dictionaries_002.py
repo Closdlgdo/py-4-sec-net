@@ -42,3 +42,7 @@ print("--------------------------------")
 my_dict_services = {"FTP": 21, "HTTP": 80, "HTTPS": 443, "SSH": 22, "DNS": 53}
 
 print(my_dict_services)
+
+my_dict_services["SMTP"] = 25
+
+print(my_dict_services)
