@@ -1,3 +1,6 @@
+# we can define a function that returns True if the item value is found in the dictionary and False otherwise.
+# You can find the following code in the my_function.py file:
+
 def contains(diction, item):
     for key,value in diction.items():
         if value == item:
