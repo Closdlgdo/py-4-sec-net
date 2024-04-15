@@ -16,3 +16,6 @@ class Protocol(object):
 # the way in which the class name is used to create the object must reflect the __init__ definition. This method is used
 # to set up the object, in other words, to properly initialize its internal state. This parameter is equivalent to the
 # pointer that can be found in languages such as C ++ or Java.
+
+# An object is a set of requirements and qualities assigned to a specific class. Classes form a hierarchy, which means
+# that an object belonging to a specific class belongs to all the superclasses at the same time.
