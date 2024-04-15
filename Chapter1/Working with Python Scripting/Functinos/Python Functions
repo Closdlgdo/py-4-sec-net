@@ -1,0 +1,16 @@
+A function is a block of code that performs a specific task when the function is invoked. You can use functions to make
+your code reusable, better organized, and more readable. Functions can have parameters and return values. There are at
+least four basic types of functions in Python:
+• Built-in functions: These are an integral part of Python. You can see a complete list of Python’s built-in functions
+at https://docs.python.org/3/library/functions.html.
+• Functions that come from pre-installed modules.
+• User-defined functions: These are written by developers in their own code, and they use
+them freely in Python.
+• The lambda function: This allows us to create anonymous functions that are built using
+expressions such as product = lambda x,y : x * y, where lambda is a Python keyword and x and y are the function parameters.
+14 Working with Python Scripting
+ In Python, functions include reusable code-ordered blocks. This allows a developer to write a block of code to perform
+ a single action. Although Python offers several built-in features, a developer may build user-defined functionality.
+Python functions are defined using the def keyword with the function name, followed by the function parameters. The
+function’s body is composed of Python statements to be executed. You have the option to return a value to the function
+caller at the end of the function, or if you do not assign a return value, it will return the None value by default.
