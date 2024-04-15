@@ -1,0 +1,5 @@
+Python is an object-oriented language that allows you to create classes from descriptions and instantiate them.
+The functions specified inside the class are instance methods, also known as member functions.
+Python’s way of constructing objects is via the class keyword. A Python object is an assembly of methods, variables,
+and properties. Lots of objects can be generated with the same class de- scription. Here is a simple example of a
+protocol object definition.
