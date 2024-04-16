@@ -19,3 +19,7 @@ print(obj.parameter)
 # object programming is the art of defining and expanding classes. A class is a model of a very specific part of
 # reality, reflecting properties and methods found in the real world. The new class may add new properties and new
 # methods, and therefore may be more useful in specific applications.
+
+# we can see a method with the name __init__, which represents the class constructor. If a class has a constructor, it
+# is invoked automatically and implicitly when the object of the class is instantiated. This method allows us to
+# initialize the internal state of an object when we create an object of a class.
