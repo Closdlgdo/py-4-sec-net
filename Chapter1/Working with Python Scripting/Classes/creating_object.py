@@ -1,0 +1,8 @@
+# An object is a set of requirements and qualities assigned to a specific class. Classes form a hierarchy, which means
+# that an object belonging to a specific class belongs to all the superclasses at the same time.
+# To build an object, write the class name followed by any parameter needed in parentheses. These are the parameters
+# that will be transferred to the init method, which is the process that is called when the class is instantiated
+
+class MyClass:
+    def __init__(self, parameter):
+        self.parameter = parameter
