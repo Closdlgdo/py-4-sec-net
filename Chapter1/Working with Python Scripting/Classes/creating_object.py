@@ -3,7 +3,7 @@
 # To build an object, write the class name followed by any parameter needed in parentheses. These are the parameters
 # that will be transferred to the init method, which is the process that is called when the class is instantiated
 
-class MyClass:
+class MyProtocol:
     def __init__(self, parameter):
         self.parameter = parameter
 
@@ -13,5 +13,5 @@ class MyClass:
 
 # we can access its attributes and methods through the object. attribute and object.method() syntax
 
-obj = MyClass(5)
+obj = MyProtocol("HTTPServer")
 print(obj.parameter)
