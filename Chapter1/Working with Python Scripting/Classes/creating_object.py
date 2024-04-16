@@ -10,3 +10,8 @@ class MyClass:
 
 # This code defines a constructor method for a Python class that initializes an instance variable called parameter with
 # the value passed to the constructor.
+
+# we can access its attributes and methods through the object. attribute and object.method() syntax
+
+obj = MyClass(5)
+print(obj.parameter)
