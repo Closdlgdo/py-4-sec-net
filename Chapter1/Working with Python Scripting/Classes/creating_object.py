@@ -6,3 +6,7 @@
 class MyClass:
     def __init__(self, parameter):
         self.parameter = parameter
+
+
+# This code defines a constructor method for a Python class that initializes an instance variable called parameter with
+# the value passed to the constructor.
