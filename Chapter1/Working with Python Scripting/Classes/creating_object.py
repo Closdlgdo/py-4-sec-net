@@ -15,3 +15,7 @@ class MyProtocol:
 
 obj = MyProtocol("HTTPServer")
 print(obj.parameter)
+
+# object programming is the art of defining and expanding classes. A class is a model of a very specific part of
+# reality, reflecting properties and methods found in the real world. The new class may add new properties and new
+# methods, and therefore may be more useful in specific applications.
