@@ -1,0 +1,6 @@
+Python inheritance is an important concept in object-oriented programming languages. This feature means creating a new
+class that inherits all the functionality of the parent class and allows the new class to add additional functionality
+to the base functionality.
+In object-oriented terminology, when class “X” is inherited by class “Y”, “X” is called a Super Class or Base Class and
+“Y” is called a Subclass or Derived Class. One more fact to keep in mind is that only the fields and methods that are
+not private are accessible by the Derived Class. Private fields and methods are only accessible by the class itself.
