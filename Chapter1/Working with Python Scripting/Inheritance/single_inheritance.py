@@ -21,3 +21,7 @@ class ChildClass(BaseClass):
     def message(self):
         print('Welcome to ChildClass')
         print('This is inherited from BaseClass')
+
+# In our main program we declare two objects, one of each class, and we call the methods defined in each of the classes.
+# Also, taking advantage of the inheritance features, we call the method of the parent class using an object of the
+# child class.
