@@ -5,3 +5,7 @@ to the base functionality.
 In object-oriented terminology, when class “X” is inherited by class “Y”, “X” is called a Super Class or Base Class and
 “Y” is called a Subclass or Derived Class. One more fact to keep in mind is that only the fields and methods that are
 not private are accessible by the Derived Class. Private fields and methods are only accessible by the class itself.
+
+Python also supports multilevel inheritance, which allows the child class to have inheritance below it. That means the
+base class is the parent class of all sub-classes and inheritance goes from parent to child. In this way, child classes
+can access properties and methods from parent classes, but parent classes cannot access the properties of the child class.
