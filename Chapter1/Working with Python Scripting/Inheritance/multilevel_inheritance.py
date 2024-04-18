@@ -36,3 +36,7 @@ if __name__ == '__main__':
     print(isinstance(child_derived_obj, Child))
     print(isinstance(child_derived_obj, MainClass))
     print(isinstance(child_derived_obj, ChildDerived))
+
+# When executing the previous script, we see how from the ChildDerived class we can call the methods from the Child and
+# Main classes. Also, with the issubclass() and isinstance() meth- ods we can check whether the child_derived_obj object
+# is a subclass and instance of the higher classes within the management hierarchy.
