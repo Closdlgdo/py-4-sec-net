@@ -9,3 +9,17 @@ not private are accessible by the Derived Class. Private fields and methods are 
 Python also supports multilevel inheritance, which allows the child class to have inheritance below it. That means the
 base class is the parent class of all sub-classes and inheritance goes from parent to child. In this way, child classes
 can access properties and methods from parent classes, but parent classes cannot access the properties of the child class.
+
+Advantages of Python inheritance
+One of the main advantages is code reuse, allowing us to establish a relationship between classes, avoiding the need to
+re-declare certain methods or attributes.
+
+Classes allow us to build objects on top of a collection of abstractly defined attributes and meth- ods. And the ability
+to inherit will allow us to create larger and more capable child classes by inheriting multiple attributes and methods
+from others as well as more specific controlling the same for a single class.
+
+The following are some benefits of using inheritance in Python’s object-oriented programming:
+• Python inheritance provides code reusability, readability, and scalability.
+• Reduce code repetition. You can define all the methods and attributes in the parent class that are accessible by the
+child classes.
+• By dividing the code into multiple classes, identifying bugs in applications is easier.
