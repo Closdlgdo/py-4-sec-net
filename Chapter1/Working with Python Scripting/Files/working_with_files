@@ -1,0 +1,2 @@
+When working with files it is important to be able to move through the filesystem, determine the type of file, and open
+a file in the different modes offered by the operating system.
