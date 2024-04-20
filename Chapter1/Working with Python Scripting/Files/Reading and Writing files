@@ -1,0 +1,7 @@
+Now we are going to review the methods for reading and writing files. These are the methods we
+can use on a file object for different operations:
+• file.open(name_file,mode): Opens a file with a specific mode.
+• file.write(string): Writes a string in a file.
+• file.read([bufsize]): Reads up to bufsize, the number of bytes from the file. If run without the buffer size option, it will read the entire file.
+• file.readline([bufsize]): Reads one line from the file.
+• file.close(): Closes the file and destroys the file object.
