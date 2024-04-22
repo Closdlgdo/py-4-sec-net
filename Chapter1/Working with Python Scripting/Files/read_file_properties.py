@@ -11,3 +11,8 @@ file_descryptor.close()
 print("Lines: ")
 for line in file_descryptor.readlines():
     print(line.strip())
+
+
+# The alternative is to read the file line by line, for which we can use the readline() method. In this
+# way, we can use the file object as an iterator if we want to read all the lines of a file one by one.
+
