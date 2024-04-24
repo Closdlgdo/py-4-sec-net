@@ -14,3 +14,5 @@ try:
 except IOError as error:
     print("I/O error occurred:", str(error))
 
+# If the file we are reading is not available in the same directory, then it will throw an I/O exception with the following error message:
+#    I/O error occurred: [Errno 2] No such file or directory: 'newfile.txt'
