@@ -13,6 +13,7 @@ except IOError as error:
 myfile.write("This is a new line being added to the file.\n")
 
 # If we want to write multiple lines, we can use the writelines() method. This method takes a list of strings as an
+# argument.
 
 # example:
 with open('newfile.txt', 'a') as myfile:
