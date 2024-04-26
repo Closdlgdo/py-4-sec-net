@@ -8,3 +8,6 @@ try:
     myfile.close()
 except IOError as error:
     print("I/O error occurred: ", str(error.errno))
+
+# The write() method is very useful if we want to write a string to a file at a certain location.
+myfile.write("This is a new line being added to the file.\n")
