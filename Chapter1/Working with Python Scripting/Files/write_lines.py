@@ -19,3 +19,9 @@ myfile.write("This is a new line being added to the file.\n")
 with open('newfile.txt', 'a') as myfile:
     lines = ["New line 1\n", "New line 2\n", "New line 3\n"]
     myfile.writelines(lines)
+
+# The writelines() method is very useful if we want to write a list of strings to a file at a certain location.
+# Writing multiple lines to a file using the writelines() method.
+with open('newfile.txt', 'a') as myfile:
+    lines = ["Another new line 1\n", "Another new line 2\n", "Another new line 3\n"]
+    myfile.writelines(lines)
