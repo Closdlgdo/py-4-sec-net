@@ -5,3 +5,9 @@
 # Developers can use the with statement to handle this situation in a safe way. The with statement automatically closes
 # the file even if an exception is raised. Using this approach, we have the advantage that the file is closed
 # automatically, and we don’t need to call the close() method.
+
+def main():
+    with open('test.txt', 'w') as file:
+        file.write("this is a test file")
+    if __name__ == '__main__':
+        main()
