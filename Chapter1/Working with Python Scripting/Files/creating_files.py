@@ -11,3 +11,7 @@ def main():
         file.write("this is a test file")
     if __name__ == '__main__':
         main()
+
+# The previous code uses the context manager to open a file and returns the file as an object. We then call
+# file.write("this is a test file"), which writes it into the created file. The with statement then handles closing
+# the file for us in this case, so we don’t have to think about it.
