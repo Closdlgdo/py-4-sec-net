@@ -1,0 +1,8 @@
+Each time your code executes in an unintended way Python stops your program, and it creates a special kind of data,
+called an exception. An exception or runtime error occurs during program execution. Exceptions are errors that Python
+detects during execution of the program. If the interpreter experiences an unusual circumstance,
+such as attempting to divide a number by 0 or attempting to access a file that does not exist, an exception is created
+or thrown, telling the user that there is a problem.
+When an exception is not handled correctly, the execution flow is interrupted, and the console shows the information
+associated with the exception so that the reader can solve the problem with the information returned by the exception.
+Exceptions can be handled so that the program does not terminate.
