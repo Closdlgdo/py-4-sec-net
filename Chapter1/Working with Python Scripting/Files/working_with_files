@@ -6,3 +6,6 @@ The following properties of the file object can be accessed:
 • name: Returns the name of the file
 • encoding: Returns the character encoding of a text file.
 • newlines: Returns the newline character used in the file.
+
+The main advantage of using these methods is that they provide an easy way by which you can automate the process of
+managing files in the operating system.
