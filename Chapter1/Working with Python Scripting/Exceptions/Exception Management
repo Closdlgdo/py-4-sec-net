@@ -6,3 +6,8 @@ or thrown, telling the user that there is a problem.
 When an exception is not handled correctly, the execution flow is interrupted, and the console shows the information
 associated with the exception so that the reader can solve the problem with the information returned by the exception.
 Exceptions can be handled so that the program does not terminate.
+
+Python provides effective methods that allow you to observe exceptions, identify them, and handle them efficiently. This
+is possible since all potential exceptions have their unambiguous names, so you can categorize them and react
+appropriately. We will review some tools in the Development environments for Python scripting section with some
+interesting techniques such as debugging.
