@@ -11,3 +11,7 @@ Python provides effective methods that allow you to observe exceptions, identify
 is possible since all potential exceptions have their unambiguous names, so you can categorize them and react
 appropriately. We will review some tools in the Development environments for Python scripting section with some
 interesting techniques such as debugging.
+
+In Python, we can use a try/except block to resolve situations related to exception handling. Now, the program tries to
+run the division by zero. When the error happens, the exceptions manager captures the error and prints a message that is
+relevant to the exception
