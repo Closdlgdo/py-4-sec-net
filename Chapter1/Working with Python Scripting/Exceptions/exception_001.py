@@ -20,7 +20,7 @@ except Exception as exception:
 # accessing an element that does not exist in the list:
 
 try:
-    list = []
+    my_list = []
     element = list[0]
 except Exception as exception:
     print("Error =", str(exception))
