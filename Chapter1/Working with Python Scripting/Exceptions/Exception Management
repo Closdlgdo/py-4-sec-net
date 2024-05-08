@@ -19,3 +19,17 @@ relevant to the exception
 Python 3 defines 63 built-in exceptions, and all of them form a tree-shaped hierarchy. Some of the built-in exceptions
 are more general (they include other exceptions), while others are completely concrete. We can say that the closer to
 the root an exception is located, the more general (abstract) it is.
+
+Some of the exceptions available by default are listed here (the class from which they are derived
+is in parentheses):
+-BaseException: The class from which all exceptions inherit.
+-Exception (BaseException): An exception is a special case of a more general class named BaseException.
+-ZeroDivisionError (ArithmeticError): An exception raised when the second argu- ment of a division is 0. This is a
+special case of a more general exception class named ArithmeticError.
+-EnvironmentError (StandardError): This is a parent class of errors related to input/ output.
+-IOError (EnvironmentError): This is an error in an input/output operation. OSError (EnvironmentError): This is an error
+in a system call.
+-ImportError (StandardError): The module or the module element that you wanted to import was not found.
+
+All the built-in Python exceptions form a hierarchy of classes. The following script dumps all predefined exception
+classes in the form of a tree-like printout.
