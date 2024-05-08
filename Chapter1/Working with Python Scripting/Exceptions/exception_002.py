@@ -10,3 +10,6 @@ except Exception as exception:
 else:
     print("File read successfully")
     file_handle.close()
+
+# we manage an exception when opening a file in read mode and if the file does not exist it will throw the message
+# \"Exception IOError: Unable to read from myfile [Errno 2] No such file or directory: 'myfile.txt'".
