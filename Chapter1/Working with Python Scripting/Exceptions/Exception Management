@@ -15,3 +15,7 @@ interesting techniques such as debugging.
 In Python, we can use a try/except block to resolve situations related to exception handling. Now, the program tries to
 run the division by zero. When the error happens, the exceptions manager captures the error and prints a message that is
 relevant to the exception
+
+Python 3 defines 63 built-in exceptions, and all of them form a tree-shaped hierarchy. Some of the built-in exceptions
+are more general (they include other exceptions), while others are completely concrete. We can say that the closer to
+the root an exception is located, the more general (abstract) it is.
